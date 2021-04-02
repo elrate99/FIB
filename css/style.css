@@ -7,7 +7,7 @@ body {
   }
 
 .header {
-    background: #e2c59c;
+    background: black;
     padding-top: 16px;
     padding-bottom: 16px;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
@@ -36,7 +36,7 @@ body {
   }
   
   .header-logo {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 20px;
     line-height: 22px;
@@ -53,7 +53,7 @@ body {
   }
 
   .post {
-    background: #e2c59c;
+    background: black;
     border: 1px solid #e8e8e8;
     margin-bottom: 30px;
   }
@@ -81,7 +81,7 @@ body {
   .blank {
     width: 890px;
     height: 1050px;
-    background-color: #f6dcae;
+    background-color: black;
     margin-bottom: 35px;
     text-align: center;
   }
@@ -250,7 +250,7 @@ body {
   }
 
   input {
-    border: 1px solid #5b240c;
+    border: 1px solid black;
     display: block;
     width: 60%;
     height: 40px;
@@ -262,11 +262,11 @@ body {
     }
 
   input:focus {
-    border: 1px solid #ae3c33;
+    border: 1px solid black;
     }
 
     textarea {
-      border: 1px solid #5b240c;
+      border: 1px solid black;
       display: block;
       padding: 0 20px;
       border-radius: 20px;
@@ -282,7 +282,7 @@ body {
     height: 40px;
     cursor: pointer;
     padding: 0;
-    background: #5b240c;
+    background: black;
     font-size: 13px;
     color: #fff;
     text-transform: uppercase;
@@ -291,12 +291,12 @@ body {
 
  fieldset {
    border-radius: 15px;
-   color: #5b240c;
+   color: black;
    margin-bottom: 15px;
  }
 
  legend {
-  color: #5b240c;
+  color: black;
   font-family: 'Kaushan Script', cursive;
   font-weight: bold;
  }
