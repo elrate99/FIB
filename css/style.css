@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    background: #e5e5e5;
+  }
+
+.header {
+    background: #e2c59c;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+  }
+
+.header-wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-nav {
+    margin-left: 60px;
+    margin-right: auto;
+  }
+  
+  .header-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-logo {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+  }
+
+  .content {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .post {
+    background: #e2c59c;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 30px;
+  }
+  
+  .post1 {
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 30px;
+  }
+
+  .post-body {
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 0;
+  }
+  
+  .post-text {
+    color: #262626;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+  }
+ 
+  .blank {
+    width: 890px;
+    height: 1050px;
+    background-color: #f6dcae;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  .titule {
+    width: 890px;
+    height: 1050px;
+    background-image: url(../img/Cover.png);
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  .blank1 {
+    width: 890px;
+    height: 1050px;
+    background-image: url(../img/blank1.png);
+    margin-bottom: 35px;
+    text-align: left;
+  }
+
+  .fib-title {
+    font-family: 'New Tegomin', serif;
+  }
+
+  .cid-title {
+    font-family: 'New Tegomin', serif;
+  }
+
+  .ts {
+    padding-top: 15px;
+    width: 250px;
+  }
+
+  .fib {
+    width: 480px;
+    height: 480px;
+    margin-bottom: 35px;
+    margin-left: 195px;
+  }
+
+  .cid {
+    width: 210px;
+    height: 210px;
+    transform: rotate(326deg);
+  }
+
+  .date {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    display: block;
+    margin-top: 275px;
+    margin-right: 330px;
+    font-size: 22px;
+  }
+
+  .name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+  }
+
+  .file-number {
+    font-family: 'New Tegomin', serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .file-number1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    margin-top: 540px;
+    margin-right: 50px;
+  }
+
+  .name1 {
+    color: #fff;
+    display: block;
+    margin-top: -15px;
+    margin-right: 340px;
+    font-size: 22px;
+    font-family: 'Kaushan Script', cursive;
+  }
+
+  .status-value {
+    color: #fff;
+    display: block;
+    margin-top: -2px;
+    margin-right: 350px;
+    font-size: 22px;
+    font-family: 'Kaushan Script', cursive;
+  }
+
+  .agents-title {
+    font-family: 'Anonymous Pro', monospace;
+    padding-top: 150px;
+    padding-bottom: 130px;
+    text-align: center;
+    color: black;
+  }
+
+  .agents-list-item {
+    list-style: none;
+    color: black;
+    font-family: 'Kiwi Maru', serif;
+    font-weight: bold;
+  }
+
+  hr {
+    margin-bottom: 35px;
+  }
+
+  .item-value1, .item-value2, .item-value3, .item-value4, .item-value5, .item-value6  {
+    font-weight: normal;
+  }
+
+  .post-text, .post-text1, .post-text2, .post-text3, .post-text4, .post-text5, .post-text6, .post-text7 {
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .post-date {
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 35px;
+  }
+
+.raport-tittle1, .raport-tittle2, .raport-tittle3, .raport-tittle4, .raport-tittle5  {
+    font-family: 'Anonymous Pro', monospace;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    color: black;
+    text-align: center;
+  }
+
+  .raport-title {
+    font-family: 'Anonymous Pro', monospace;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
+  }
+
+  .post-approved {
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    text-align: right;
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .closed {
+    width: 550px;
+    height: 245px;
+    margin-left: 155px;
+    margin-top: 65px;
+  }
+
+  input {
+    border: 1px solid #5b240c;
+    display: block;
+    width: 60%;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    background: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+  input:focus {
+    border: 1px solid #ae3c33;
+    }
+
+    textarea {
+      border: 1px solid #5b240c;
+      display: block;
+      padding: 0 20px;
+      border-radius: 20px;
+      background: none;
+     }
+
+ .submit {
+    margin-left: 275px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    width: 152px;
+    height: 40px;
+    cursor: pointer;
+    padding: 0;
+    background: #5b240c;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 20px;
+ }
+
+ fieldset {
+   border-radius: 15px;
+   color: #5b240c;
+   margin-bottom: 15px;
+ }
+
+ legend {
+  color: #5b240c;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+ }
+
+ label {
+   display: block;
+   margin-bottom: 15px;
+   margin-top: 15px;
+ }
+
+ .visually-hidden {
+   display: none;
+ }

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <title>CID Case-File</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+          <a href="/" class="header-logo">
+          By Lorenzo Milano
+          </a>
+        </div>
+      </header>
+      <div class="content">
+        <section class="post1">
+          <div class="post-body">
+            <form class="case-form">
+              <fieldset>
+                <legend>Титульный лист</legend>
+                <label for="name">Приоритет кейс-файла:</label>
+                <input required list="dl_priority" id="name">
+                <datalist id="dl_priority">
+                  <option label="GREEN" value="GREEN">
+                  <option label="ORANGE" value="ORANGE">
+                  <option label="RED" value="RED">
+                </datalist> <br>
+                <label for="status">Статус кейс-файла:</label>
+                <input id="status" list="dl_status">
+                <datalist id="dl_status">
+                  <option label="OPENED" value="OPENED">
+                  <option label="CLOSED" value="CLOSED">
+                  <option label="FROZEN" value="FROZEN">
+                </datalist>
+                 <br>
+                <label for="date-open">Дата открытия кейс-файла:</label>
+                <input type="date" id="date-open"> <br>
+                <label for="case-number">Номер кейса(указывать только число):</label>
+                <input type="number" min="001" max="999" id="case-number"> <br>
+            </fieldset>
+            <fieldset>
+              <legend>Лица учавствующие в написании кейса</legend>
+              <label for="agent-curator">Ответственный за кейс-файл(бейдж):</label>
+              <input type="text" id="agent-curator"> <br>
+              <label for="agents-list">Сколько агентов учавствовало в написании кейс-файла:</label>
+              <input id="agents-list" list="dl_agents">
+              <datalist id="dl_agents">
+                <option label="1" value="1">
+                <option label="2" value="2">
+                <option label="3" value="3">
+                <option label="4" value="4">
+                <option label="5" value="5">
+                <option label="6" value="6">
+              </datalist> <br>
+              <label class="agent1" for="agent1">Укажите бейдж агента:</label>
+              <input type="text" id="agent1"> 
+              <label class="agent2" for="agent2">Укажите бейдж агента:</label>
+              <input type="text" id="agent2"> 
+              <label class="agent3" for="agent3">Укажите бейдж агента:</label>
+              <input type="text" id="agent3"> 
+              <label class="agent4" for="agent4">Укажите бейдж агента:</label>
+              <input type="text" id="agent4"> 
+              <label class="agent5" for="agent5">Укажите бейдж агента:</label>
+              <input type="text" id="agent5"> 
+              <label for="count-raport">Количество рапортов:</label>
+              <input id="count-raport" list="dl_count">
+              <datalist id="dl_count">
+                <option label="1" value="1">
+                <option label="2" value="2">
+                <option label="3" value="3">
+                <option label="4" value="4">
+                <option label="5" value="5">
+              </datalist> <br>
+            </fieldset>
+            <fieldset>
+              <legend>Описание кейс-файла</legend>
+              <textarea name="" id="description" cols="80" rows="20"></textarea>
+            </fieldset>
+            <fieldset class="report1">
+              <legend>Рапорт #1</legend>
+              <label for="raport-title">Заголовок рапорта:</label>
+              <input type="text" name="" id="raport-title1"> <br>
+              <textarea name="" id="raport1" cols="80" rows="20"></textarea>
+            </fieldset>
+            <fieldset class="report2">
+              <legend>Рапорт #2</legend>
+              <label for="raport-title2">Заголовок рапорта:</label>
+              <input type="text" name="" id="raport-title2"> <br>
+              <textarea name="" id="raport2" cols="80" rows="20"></textarea>
+            </fieldset>
+            <fieldset class="report3">
+              <legend>Рапорт #3</legend>
+              <label for="raport-title3">Заголовок рапорта:</label>
+              <input type="text" name="" id="raport-title3"> <br>
+              <textarea name="" id="raport3" cols="80" rows="20"></textarea>
+            </fieldset>
+            <fieldset class="report4">
+              <legend>Рапорт #4</legend>
+              <label for="raport-title4">Заголовок рапорта:</label>
+              <input type="text" name="" id="raport-title4"> <br>
+              <textarea name="" id="raport4" cols="80" rows="20"></textarea>
+            </fieldset>
+            <fieldset class="report5">
+              <legend>Рапорт #5</legend>
+              <label for="raport-title5">Заголовок рапорта:</label>
+              <input type="text" name="" id="raport-title5"> <br>
+              <textarea name="" id="raport5" cols="80" rows="20"></textarea>
+            </fieldset>
+            <fieldset>
+              <legend>Итоги дела</legend>
+              <label for="time">Время закрытия кейс-файла:</label>
+              <input type="time" id="time"> <br>
+              <label for="date-closed">Дата закрытия кейс-файла:</label>
+              <input type="date" id="date-closed"> <br>
+              <textarea name="" id="outcome" cols="80" rows="20"></textarea>
+            </fieldset>
+            <fieldset>
+              <legend>Статьи обвинения</legend>
+              <textarea name="" id="closed-case" cols="80" rows="20"></textarea> <br>
+              <label for="sign-curator">Подпись Агента ведущего дело:</label>
+              <input type="text" id="sign-curator"> <br>
+              <label for="approve-list1">Ознакомился и утвердил: </label>
+              <input id="approve-list1" list="dl_cid">
+                <datalist id="dl_cid">
+                  <option label="Глава криминального следственного отдела" value="1">
+                  <option label="Заместитель главы криминального следственного отдела" value="2">
+                </datalist> <br>
+              <label for="name-approve1">Имя утвердившего: </label>
+              <input type="text"id="name-approve1"> <br>
+              <label for="approve-list2">Ознакомился и утвердил: </label>
+              <input id="approve-list2" list="dl_fib">
+              <datalist id="dl_fib">
+                <option label="Директор FIB" value="1">
+                <option label="Заместитель директора FIB" value="2">
+              </datalist> <br>
+              <label for="name-approve2">Имя утвердившего: </label>
+              <input type="text"id="name-approve2"> <br>
+              <label for="date-closed1">Дата утверждения:</label>
+              <input type="date" id="date-closed1">
+            </fieldset>
+            <button type="button" class="submit">Отправить</button>
+            </form>
+          </div>
+        </section>
+      </div>
+      <div class="content blank-titule ">
+        <section class="post">
+          <div class="post-body">
+            <div class="blank titule">
+              <br>
+              <span class="file-number1"></span>
+              <span class="date"></span>
+              <br>
+              <h4 class="status-value"></h4>
+              <h4 class="name1"></h4>
+            </div>
+        </section>
+      </div>
+      <div class="content blank-agents">
+        <section class="post">
+          <div class="post-body">
+            <div class="blank1">
+              <h1 class="agents-title">AGENTS INVOLVED IN CASE WRITING:</h1>
+                <ul class="agents-list">
+                  <li class="agents-list-item">The curator of the case: <span class="item-value1"></span></li>
+                  <hr color="#5b240c" size="5" width="840">
+                  <li class="agents-list-item">Agent CID: <span class="item-value2"></span></li>
+                  <hr color="#5b240c" size="5" width="840">
+                  <li class="agents-list-item">Agent CID: <span class="item-value3"></span></li>
+                  <hr color="#5b240c" size="5" width="840">
+                  <li class="agents-list-item">Agent CID: <span class="item-value4"></span></li>
+                  <hr color="#5b240c" size="5" width="840">
+                  <li class="agents-list-item">Agent CID: <span class="item-value5"></span> </li>
+                  <hr color="#5b240c" size="5" width="840">
+                  <li class="agents-list-item">Agent CID: <span class="item-value6"></span></li>
+                  <hr color="#5b240c" size="5" width="840">
+                </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="content blank-description">
+        <section class="post">
+          <div class="post-body">
+            <div class="blank1">
+              <h1 class="agents-title">Description:</h1>
+              <p class="post-text"></p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="content reportt1">
+        <section class="post">
+          <div class="post-body">
+            <div class="blank1">
+              <h1 class="raport-tittle1"></h1>
+              <p class="post-text1">
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="content reportt2">
+        <section class="post">
+          <div class="post-body">
+            <div class="blank1">
+              <h1 class="raport-tittle2"></h1>
+              <p class="post-text2">
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="content reportt3">
+        <section class="post">
+          <div class="post-body">
+            <div class="blank1">
+              <h1 class="raport-tittle3"></h1>
+              <p class="post-text3">
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="content reportt4">
+        <section class="post">
+          <div class="post-body">
+            <div class="blank1">
+              <h1 class="raport-tittle4"></h1>
+              <p class="post-text4">
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="content reportt5">
+        <section class="post">
+          <div class="post-body">
+            <div class="blank1">
+              <h1 class="raport-tittle5"></h1>
+              <p class="post-text5">
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="content blank-outcome">
+        <section class="post">
+          <div class="post-body">
+            <div class="blank1">
+              <h1 class="raport-title">ИТОГИ ДЕЛА:</h1>
+              <p class="post-date">Los-Santos, San-Andreas. <br>
+               <span class="time"></span> <span class="date1"></span> 
+                </p>
+              <p class="post-text6">
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="content blank-close">
+        <section class="post">
+          <div class="post-body">
+            <div class="blank1">
+              <h1 class="raport-title">СТАТЬИ ОБВИНЕНИЯ:</h1>
+              <p class="post-text7">
+              </p>
+              <p class="post-approved">Подпись Агента ведущего дело: <br>
+                <span class="curator-sign"></span> <br>
+                Ознакомился и утвердил: <br>
+                <span class="head-cid">1</span> <br>
+                <span class="name-head-cid"></span> <br>
+                Ознакомился и утвердил: <br>
+                <span class="head-fib">1</span> <br>
+                <span class="name-head-fib"></span> <br>
+                Дата утверждения: <span class="date-closed1"></span></p>
+                <span class="closed-wrapper"><img class="closed" src="img/closed.png" alt=""></span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <script src="js/script.js"></script>
+</body>
+</html>
